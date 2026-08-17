@@ -226,6 +226,10 @@ width: 130px;
     .footer-flex{
         text-align: center;
     }
+      
+    .footer-flex .footer-logo{
+        width: 100px;
+    }
 
 }   @media (max-width: 768px) {
     .header .header-flex,
