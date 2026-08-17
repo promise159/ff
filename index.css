@@ -227,4 +227,57 @@ width: 130px;
         text-align: center;
     }
 
-}   
+}   @media (max-width: 768px) {
+    .header .header-flex,
+    .footer-flex,
+    .services .services-flex,
+    .team .team-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .header .main-menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero h3 {
+        font-size: 1.2rem;
+    }
+
+    .gallery-item {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .footer-flex {
+        text-align: center;
+    }
+
+    .team {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero h3 {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        padding: 0.8rem 2rem;
+        width: 100%;
+    }
+}
