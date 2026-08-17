@@ -230,6 +230,9 @@ width: 130px;
     .footer-flex .footer-logo{
         width: 100px;
     }
+    .footer-logos{
+        width:100%;
+    }
 
 }   @media (max-width: 768px) {
     .header .header-flex,
